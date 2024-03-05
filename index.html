@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tank Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="bg">
+
+        <nav>
+            <li class="list"><button class="new btn">New Game</button></li>
+            <li>
+
+            </li>
+            <li class="list"><button class="res btn">Restart</button></li>
+
+            <!-- <li class="list">Score<span class="score--0">0</span></li>
+            <li class="list">high Score <span>2</span></li> -->
+
+        </nav>
+        <img src="humanitarian-help.gif" alt="" class="helipad">
+        <div class="section">
+
+            <li class="player player--0  palyer--active"><span class="sc player--sc0">0</span><img src="bull.gif" alt=""
+                    class="bull">Player 1<div class="sr" id="current--0">0</div>
+            </li>
+            <div class="dice_section">
+                <h1 class="make">Make 20 to Win</h1>
+                <button class="btn0 btn--roll ">Roll-Dice</button>
+                <div class="for_dice">
+                    <img src="dice-1.png" alt="" class="dice">
+                </div>
+                <div class="for_dice power">x2</div>
+            </div>
+            <li class="player  player--1 palyer--active"><span class="sc player--sc1">0</span><img
+                    src="spectacled-bear.gif" alt="" class="bull">Player 2
+                <div class="sr" id="current--1">0</div>
+            </li>
+        </div>
+        <div class="winner hidden">
+            <img src="hot-air-balloon.gif" alt="" class="ig">
+
+            <p class="para"></p><img src="bull.gif" alt="" style="width: 70px;" class="hidden" id="first_img"><img
+                src="spectacled-bear.gif" alt="" style="width: 70px;" class="hidden" id="second_img">
+            <button class="play btn" style="font-size: 18px; font-weight: 900;"><img src="replay.png" alt=""
+                    style="width: 40px;"> Play Again</button>
+        </div>
+        <div class="conatiner">
+
+            <img src="tank1.png" alt="" class="tank"><iframe src="blaster-2-81267.mp3" style="display:none"
+                id="iframeAudio">
+            </iframe> <span class="bullet hidden"></span></audio>
+            <img src="tank.png" alt="" class="tank1"><span class="bullet1 hidden"></span>
+        </div>
+
+        <img src="car/front-loader-unscreen.gif" alt="" class="loader">
+
+        <img src="Untitled design (5).png" alt="" class="img_second">
+        <div class="building">
+            <img src="building/hospital.png" alt="" class="build">
+            <img src="building/skyscraper.png" alt="" class="build">
+        </div>
+        <div class="road">
+            <img src="car/new-car.gif" alt="" class="car">
+            <img src="car/cycling-unscreen.gif" alt="" class="cyc">
+            <img src="car/Untitled-Project-V1-unscreen.gif" alt="" class="car1">
+        </div>
+
+    </header>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
